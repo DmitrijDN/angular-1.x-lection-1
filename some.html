@@ -1,0 +1,7 @@
+<input type="text" name="test" ng-model='second.text' ng-change="second.inputHandler(second.text)" ng-model-options="{updateOn: 'change'}" ng-if="second.show">
+<p ng-class="{bold: second.secondBold}">{{second.test}}</p>
+
+
+<div ng-repeat="number in second.arr track by $index">
+	<h3>{{number}}</h3>
+</div>

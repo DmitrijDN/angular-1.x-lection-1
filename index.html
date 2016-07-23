@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular 1.x example</title>
+	<link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body ng-cloak>
+	<div id="main" ng-view>
+	</div>
+
+	<script type="text/javascript" src="/bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="/bower_components/angular-route/angular-route.js"></script>
+	<script type="text/javascript" src="/app.js"></script>
+	<script type="text/javascript" src="/service.js"></script>
+	<script type="text/javascript" src="/constant.js"></script>
+	<script type="text/javascript" src="/firstController.js"></script>
+	<script type="text/javascript" src="/secondController.js"></script>
+	<script type="text/javascript">
+		angular.bootstrap(document, ['angularExample']);
+	</script>
+
+</body>
+</html>
